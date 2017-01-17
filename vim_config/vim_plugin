@@ -1,0 +1,11 @@
+sudo apt-get install ctags
+sudo apt-get remove vim-tiny
+sudo apt-get install vim vim-scripts vim-doc
+sudo apt-get install vim-addon-manager
+sudo vim-addons install omnicppcomplete //ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .
+vim-addons install taglist
+vim-addons install winmanager
+vim-addons install minibufexplorer
+vim-addons install project
+sudo apt-get install cscope
+
